@@ -1,7 +1,7 @@
 # AccountTest
 Account Test
 
-![alt text]("https://raw.githubusercontent.com/ahmetyunsel/AccountTest/master/Test Image/1- start.png")
+![title](https://github.com/ahmetyunsel/AccountTest/blob/master/Test%20Image/1-%20start.png)
 ![Screenshot](Test Image/screenshot.png)
 ![Screenshot](Test Image/screenshot.png)
 ![Screenshot](Test Image/screenshot.png)
