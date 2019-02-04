@@ -14,20 +14,21 @@ namespace AccountTest
         {
             Console.WriteLine("Press [ENTER] to start");
             Console.ReadLine();
+            double totalRecord = 0;
 
-            string AccountFilePath = @"d:\a4.txt";
+            string AccountFilePath = AppDomain.CurrentDomain.BaseDirectory + @"Test File\a4.txt";
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            string result = ReadAccountFile(AccountFilePath);
+            string result = ReadAccountFile(AccountFilePath, ref totalRecord);
             stopwatch.Stop();
-
-            Console.WriteLine("\r\n\r\n\r\n\r\n" + result + "\r\n\r\nTime elapsed (ms): {0}:", stopwatch.ElapsedMilliseconds);
+            string totalCountWrite = result.Contains("Success") ? "\r\n\r\nTotal Record:" + totalRecord : "";
+            Console.WriteLine("\r\n\r\n\r\n\r\n" + result + totalCountWrite + "\r\n\r\nTime elapsed (ms): {0}:", stopwatch.ElapsedMilliseconds);
 
             Console.ReadLine();
         }
 
-        public static string ReadAccountFile(string AccountFilePath)
+        public static string ReadAccountFile(string AccountFilePath, ref double totalRecord)
         {
             List<ModelAccountInfo> modelAccountInfos = new List<ModelAccountInfo>();
             ModelAccountInfo modelAccountInfo = new ModelAccountInfo();
@@ -45,6 +46,7 @@ namespace AccountTest
             {
                 modelAccountInfos = new List<ModelAccountInfo>();
                 int accountQuantityCount = Convert.ToInt32(result[nextQuantityCount]);
+                totalRecord = totalRecord + accountQuantityCount;
                 if (accountQuantityCount > 100000) return "Error: [the number of accounts > 100 000]";
                 LoopFileLine = 1 + nextQuantityCount;
                 for (int j = 0; j < accountQuantityCount; j++)

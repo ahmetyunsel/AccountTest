@@ -5,3 +5,10 @@ D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.csprojAssemblyReference.ca
 D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.csproj.CoreCompileInputs.cache
 D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.exe
 D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.pdb
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\bin\Debug\AccountTest.exe.config
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\bin\Debug\AccountTest.exe
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\bin\Debug\AccountTest.pdb
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\obj\Debug\AccountTest.csprojAssemblyReference.cache
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\obj\Debug\AccountTest.csproj.CoreCompileInputs.cache
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\obj\Debug\AccountTest.exe
+D:\Test\GIT\Git_Account\AccountTest\AccountTest\obj\Debug\AccountTest.pdb
