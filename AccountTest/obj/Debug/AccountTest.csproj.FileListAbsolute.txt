@@ -1,0 +1,7 @@
+D:\Test\AccountTest\AccountTest\bin\Debug\AccountTest.exe.config
+D:\Test\AccountTest\AccountTest\bin\Debug\AccountTest.exe
+D:\Test\AccountTest\AccountTest\bin\Debug\AccountTest.pdb
+D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.csprojAssemblyReference.cache
+D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.csproj.CoreCompileInputs.cache
+D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.exe
+D:\Test\AccountTest\AccountTest\obj\Debug\AccountTest.pdb
